@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background-color:#f1f5f9;
+}
+.add-btn{
+    background:lime;
+    color: darkblue;
+    width: 50px;
+    height: 22px;
+    border-radius: 30px;
+    border: none;
+    border-color: lime;
+    border-width: 5px;
+}
+.add-btn:hover{
+    transform: scale(1.1);
+}
+.delete-btn{
+    background:red;
+    color: rgb(243, 243, 35);
+    width: 50px;
+    height: 22px;
+    border-radius: 30px;
+    border: none;
+    border-color: rgb(204, 239, 66);
+    border-width: 5px;
+}
+.delete-btn:hover{
+    transform: scale(1.1);
+}
+.todo-card {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  
+  background-color: #b8f3f3;      
+  width: 350px;                   
+  margin: 12px auto;              
+  padding: 10px 16px;             
+  border-radius: 8px;             
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); 
+}
+
+.todo-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1e293b;                 
+}
